@@ -4,7 +4,9 @@ Understanding of Key Client Scripts:
    
   A. Auto-Populate Student Details
      •	Type: onChange (Field: u_admission_number)
+     
      •	Description: When an admission number is selected, this script fetches reference data to fill in student and parent details automatically. It also locks these fields to prevent manual editing of master records.
+     
   B. Pincode Address Update
      •	Type: onChange (Field: u_pincode)
      •	Description: Automatically sets the Mandal, City, and District based on the entered Pincode to ensure data accuracy.
